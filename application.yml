@@ -6,13 +6,12 @@ spring:
 ---
 spring:
   profiles: dev
-    application: 
-      name: cloudConfig-dev
+  application: 
+    name: cloudConfig-dev
 
 ---
 spring:
   profiles: test
-    application: 
-      name: cloudConfig-test
-
+  application: 
+    name: cloudConfig-test
 #utf-8
