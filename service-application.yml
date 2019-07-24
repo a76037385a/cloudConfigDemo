@@ -5,7 +5,7 @@ spring:
 
 ---
 server:
-  port: 10003
+  port: 10004
 spring:
   profiles: dev
   application:
@@ -15,7 +15,7 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-       defaultZone: http://localhost:10003/eureka/
+       defaultZone: http://localhost:10004/eureka/
 
 ---
 server:
