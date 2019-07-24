@@ -5,7 +5,7 @@ spring:
 
 ---
 server:
-  port: 10005
+  port: 10006
 spring:
   profiles: dev
   application:
@@ -13,7 +13,7 @@ spring:
 eureka:
   client:
     service-url:
-       defaultZone: http://localhost:10005/eureka/
+       defaultZone: http://localhost:10006/eureka/
 
 ---
 server:
